@@ -1,5 +1,7 @@
 # dry-run
-Dry run any class/module in Ruby.
+[![Build Status](https://travis-ci.org/nsaeki/dry_run.svg?branch=master)](https://travis-ci.org/nsaeki/dry_run)
+
+Add dry run feature in existing classes/modules.
 
 This is a sample implementation to add dry run feature to existing class using Ruby 2.1 Refinements.
 This code is also available in pure sub-classing implementation.
@@ -59,4 +61,3 @@ DryRun.dry_run_state = :dry_run
 DryRunYourClass.new.your_method
 # Also dry run with message "[DRY RUN] your_method"
 ```
-

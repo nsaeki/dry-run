@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = DryRun::VERSION
   spec.authors       = ["Nobuo Saeki"]
   spec.email         = ["nobuo.saeki@gmail.com"]
-  spec.summary       = %q{Append dry run feature in existing classes/modules.}
+  spec.summary       = %q{Add dry run feature in existing classes/modules.}
   spec.homepage      = "https://github.com/nsaeki/dry_run"
   spec.license       = "MIT"
 
