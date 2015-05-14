@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require './version'
+require 'dry_run/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "."
-  spec.version       = .::VERSION
+  spec.version       = DryRun::VERSION
   spec.authors       = ["Nobuo Saeki"]
   spec.email         = ["nobuo.saeki@gmail.com"]
   spec.summary       = %q{Dry run any class/module}
@@ -18,5 +18,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.7"
+  spec.add_development_dependency "minitest", "~> 5.5"
   spec.add_development_dependency "rake", "~> 10.0"
 end
