@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'dry_run/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "."
+  spec.name          = "dry_run"
   spec.version       = DryRun::VERSION
   spec.authors       = ["Nobuo Saeki"]
   spec.email         = ["nobuo.saeki@gmail.com"]
-  spec.summary       = %q{Dry run any class/module}
-  spec.homepage      = ""
+  spec.summary       = %q{Append dry run feature in existing classes/modules.}
+  spec.homepage      = "https://github.com/nsaeki/dry_run"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
